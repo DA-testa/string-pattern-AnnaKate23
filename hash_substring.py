@@ -18,8 +18,8 @@ def read_input():
         return P, T
     elif "F" in text:
         with open(f"./test/{file}", "r") as filee:
-            P = file.readline().rstrip()
-            T = file.readline().rstrip()
+            P = filee.readline().rstrip()
+            T = filee.readline().rstrip()
         return P, T
 
     
