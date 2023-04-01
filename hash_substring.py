@@ -17,9 +17,9 @@ def read_input():
             print("Error")
         return P, T
     elif "F" in text:
-        file = input()
+        #file = input()
         try:
-            with open(f"./test/{file}", "r") as filee:
+            with open(f"./test/", "r") as filee:
                 P = filee.readline().rstrip()
                 T = filee.readline().rstrip()
         except EOFError:
