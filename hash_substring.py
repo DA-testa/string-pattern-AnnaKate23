@@ -19,7 +19,7 @@ def read_input():
     elif "F" in text:
         #file = input()
         try:
-            with open(f"./test/", "r") as filee:
+            with open(f"./tests/06", "r") as filee:
                 P = filee.readline().rstrip()
                 T = filee.readline().rstrip()
         except EOFError:
