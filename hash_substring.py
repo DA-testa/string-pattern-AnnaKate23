@@ -17,10 +17,13 @@ def read_input():
             print("Error")
         return P, T
     elif "F" in text:
-        file = input()
-        with open(f"./test/{file}", "r") as filee:
-            P = filee.readline().rstrip()
-            T = filee.readline().rstrip()
+        #file = input()
+        try:
+            with open(f"./test/{file}", "r") as filee:
+                P = filee.readline().rstrip()
+                T = filee.readline().rstrip()
+        except EOFError:
+            print("EOF")
         return P, T
 
     
