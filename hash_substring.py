@@ -13,7 +13,7 @@ def read_input():
             print("Error")
         if len(T) < len(P):
             print("Error")
-        if len(T) > 5*(10**5)
+        if len(T) > 5*(10**5):
             print("Error")
         return P, T
     elif "F" in text:
