@@ -7,8 +7,8 @@ def read_input():
     print("Input 'I' or 'F': ")
     text = input()
     if "I" in text:
-        P = input(Enter patter: ).rstrip()
-        T = input(Enter text: ).rstrip()
+        P = input().rstrip()
+        T = input().rstrip()
         if len(P) < 1:
             print("Error")
         if len(T) < len(P):
