@@ -4,7 +4,7 @@ d=256
 q=101
 
 def read_input():
-    print("Input 'I' or 'F': ")
+    #print("Input 'I' or 'F': ")
     text = input()
     if "I" in text:
         P = input().rstrip()
